@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #d9d7dc;
+  font-size: 100px;
+}
+
+.nav-links {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+#cooking {
+  background-color: #ecb06b;
+}
+
+#nature {
+  background-color: #92cb72;
+}
+
+#music {
+  background-color: #42429b;
+}
+
+/* .button:hover {
+  transform: scale(1.1);
+} */
