@@ -8,9 +8,9 @@ def home():
   return render_template('index.html')
 
  
-@app.route('/running')
-def running_info():
-  return render_template('running.html')
+@app.route('/nature')
+def nature_info():
+  return render_template('nature.html')
 
  
 
